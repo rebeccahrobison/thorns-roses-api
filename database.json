@@ -1,0 +1,416 @@
+{
+  "flowers": [
+    {
+      "id": 1,
+      "color": "red",
+      "species": "Rose"
+    },
+    {
+      "id": 2,
+      "color": "yellow",
+      "species": "Tulip"
+    },
+    {
+      "id": 3,
+      "color": "purple",
+      "species": "Lilac"
+    },
+    {
+      "id": 4,
+      "color": "white",
+      "species": "Daisy"
+    },
+    {
+      "id": 5,
+      "color": "pink",
+      "species": "Peonies"
+    },
+    {
+      "id": 6,
+      "color": "orange",
+      "species": "Marigold"
+    },
+    {
+      "id": 7,
+      "color": "blue",
+      "species": "Hydrangea"
+    },
+    {
+      "id": 8,
+      "color": "lavender",
+      "species": "Lavender"
+    },
+    {
+      "id": 9,
+      "color": "yellow",
+      "species": "Sunflower"
+    },
+    {
+      "id": 10,
+      "color": "pink",
+      "species": "Carnation"
+    }
+  ],
+  "nurseries": [
+    {
+      "id": 1,
+      "businessName": "Blanche Verity Nursery"
+    },
+    {
+      "id": 2,
+      "businessName": "Green Meadows Nursery"
+    },
+    {
+      "id": 3,
+      "businessName": "Blossom Garden Nursery"
+    },
+    {
+      "id": 4,
+      "businessName": "Rainbow Flowers Nursery"
+    },
+    {
+      "id": 5,
+      "businessName": "Sunrise Flora Nursery"
+    },
+    {
+      "id": 6,
+      "businessName": "Nature's Delight Nursery"
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "businessName": "Greene Botanical Shipping",
+      "priceMarkup": 30
+    },
+    {
+      "id": 2,
+      "businessName": "Blooms Express Distributors",
+      "priceMarkup": 25
+    },
+    {
+      "id": 3,
+      "businessName": "Floral World Distributors",
+      "priceMarkup": 28
+    },
+    {
+      "id": 4,
+      "businessName": "Petals Plus Distributors",
+      "priceMarkup": 32
+    }
+  ],
+  "retailers": [
+    {
+      "id": 1,
+      "businessName": "West End Flowers",
+      "address": "1204 West End Ave.",
+      "priceMarkup": 15
+    },
+    {
+      "id": 2,
+      "businessName": "City Blooms Florist",
+      "address": "789 Main St.",
+      "priceMarkup": 18
+    },
+    {
+      "id": 3,
+      "businessName": "Blossom Boutique",
+      "address": "456 Elm St.",
+      "priceMarkup": 20
+    },
+    {
+      "id": 4,
+      "businessName": "Garden of Roses",
+      "address": "101 Rose Ave.",
+      "priceMarkup": 17
+    },
+    {
+      "id": 5,
+      "businessName": "Sunflower Haven",
+      "address": "222 Sunshine Rd.",
+      "priceMarkup": 16
+    },
+    {
+      "id": 6,
+      "businessName": "Lavender Dreams",
+      "address": "333 Lavender Lane",
+      "priceMarkup": 19
+    },
+    {
+      "id": 7,
+      "businessName": "Tulip Treasures",
+      "address": "567 Tulip Blvd.",
+      "priceMarkup": 21
+    },
+    {
+      "id": 8,
+      "businessName": "Daisy Delights",
+      "address": "789 Daisy Dr.",
+      "priceMarkup": 22
+    },
+    {
+      "id": 9,
+      "businessName": "Marigold Magic",
+      "address": "999 Marigold Ave.",
+      "priceMarkup": 23
+    }
+  ],
+  "nurseryFlowers": [
+    {
+      "id": 1,
+      "nurseryId": 1,
+      "flowerId": 1,
+      "price": 11.11
+    },
+    {
+      "id": 2,
+      "nurseryId": 1,
+      "flowerId": 2,
+      "price": 9.99
+    },
+    {
+      "id": 3,
+      "nurseryId": 2,
+      "flowerId": 3,
+      "price": 8.88
+    },
+    {
+      "id": 4,
+      "nurseryId": 2,
+      "flowerId": 4,
+      "price": 7.77
+    },
+    {
+      "id": 5,
+      "nurseryId": 3,
+      "flowerId": 5,
+      "price": 12.34
+    },
+    {
+      "id": 6,
+      "nurseryId": 3,
+      "flowerId": 6,
+      "price": 10.00
+    },
+    {
+      "id": 7,
+      "nurseryId": 4,
+      "flowerId": 7,
+      "price": 11.50
+    },
+    {
+      "id": 8,
+      "nurseryId": 4,
+      "flowerId": 8,
+      "price": 9.25
+    },
+    {
+      "id": 9,
+      "nurseryId": 5,
+      "flowerId": 9,
+      "price": 14.50
+    },
+    {
+      "id": 10,
+      "nurseryId": 5,
+      "flowerId": 10,
+      "price": 13.00
+    },
+    {
+      "id": 11,
+      "nurseryId": 6,
+      "flowerId": 2,
+      "price": 10.99
+    }
+  ],
+  "nurseryDistributors": [
+    {
+      "id": 1,
+      "nurseryId": 1,
+      "distributorId": 1,
+      "flowerId": 1
+    },
+    {
+      "id": 2,
+      "nurseryId": 1,
+      "distributorId": 2,
+      "flowerId": 2
+    },
+    {
+      "id": 3,
+      "nurseryId": 2,
+      "distributorId": 2,
+      "flowerId": 3
+    },
+    {
+      "id": 4,
+      "nurseryId": 2,
+      "distributorId": 3,
+      "flowerId": 4
+    },
+    {
+      "id": 5,
+      "nurseryId": 3,
+      "distributorId": 3,
+      "flowerId": 5
+    },
+    {
+      "id": 6,
+      "nurseryId": 3,
+      "distributorId": 4,
+      "flowerId": 6
+    },
+    {
+      "id": 7,
+      "nurseryId": 4,
+      "distributorId": 1,
+      "flowerId": 7
+    },
+    {
+      "id": 8,
+      "nurseryId": 4,
+      "distributorId": 2,
+      "flowerId": 8
+    },
+    {
+      "id": 9,
+      "nurseryId": 5,
+      "distributorId": 2,
+      "flowerId": 9
+    },
+    {
+      "id": 10,
+      "nurseryId": 5,
+      "distributorId": 3,
+      "flowerId": 10
+    },
+    {
+      "id": 11,
+      "nurseryId": 6,
+      "distributorId": 2,
+      "flowerId": 9
+    }
+  ],
+  "retailerPurchase": [
+    {
+      "id": 1,
+      "retailerId": 1,
+      "distributorId": 1,
+      "flowerId": 1
+    },
+    {
+      "id": 2,
+      "retailerId": 2,
+      "distributorId": 2,
+      "flowerId": 2
+    },
+    {
+      "id": 3,
+      "retailerId": 3,
+      "distributorId": 3,
+      "flowerId": 3
+    },
+    {
+      "id": 4,
+      "retailerId": 4,
+      "distributorId": 4,
+      "flowerId": 4
+    },
+    {
+      "id": 5,
+      "retailerId": 5,
+      "distributorId": 1,
+      "flowerId": 5
+    },
+    {
+      "id": 6,
+      "retailerId": 6,
+      "distributorId": 2,
+      "flowerId": 6
+    },
+    {
+      "id": 7,
+      "retailerId": 7,
+      "distributorId": 3,
+      "flowerId": 7
+    },
+    {
+      "id": 8,
+      "retailerId": 8,
+      "distributorId": 4,
+      "flowerId": 8
+    },
+    {
+      "id": 9,
+      "retailerId": 9,
+      "distributorId": 1,
+      "flowerId": 9
+    },
+    {
+      "id": 10,
+      "retailerId": 10,
+      "distributorId": 2,
+      "flowerId": 10
+    },
+    {
+      "id": 11,
+      "retailerId": 1,
+      "distributorId": 3,
+      "flowerId": 2
+    },
+    {
+      "id": 12,
+      "retailerId": 2,
+      "distributorId": 1,
+      "flowerId": 1
+    },
+    {
+      "id": 13,
+      "retailerId": 3,
+      "distributorId": 4,
+      "flowerId": 3
+    },
+    {
+      "id": 14,
+      "retailerId": 4,
+      "distributorId": 2,
+      "flowerId": 4
+    },
+    {
+      "id": 15,
+      "retailerId": 5,
+      "distributorId": 3,
+      "flowerId": 5
+    },
+    {
+      "id": 16,
+      "retailerId": 6,
+      "distributorId": 1,
+      "flowerId": 6
+    },
+    {
+      "id": 17,
+      "retailerId": 7,
+      "distributorId": 4,
+      "flowerId": 7
+    },
+    {
+      "id": 18,
+      "retailerId": 8,
+      "distributorId": 2,
+      "flowerId": 8
+    },
+    {
+      "id": 19,
+      "retailerId": 9,
+      "distributorId": 1,
+      "flowerId": 9
+    },
+    {
+      "id": 20,
+      "retailerId": 10,
+      "distributorId": 3,
+      "flowerId": 10
+    }
+  ]
+}
