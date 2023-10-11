@@ -2,52 +2,52 @@
   "flowers": [
     {
       "id": 1,
-      "color": "red",
+      "color": "Red",
       "species": "Rose"
     },
     {
       "id": 2,
-      "color": "yellow",
+      "color": "Yellow",
       "species": "Tulip"
     },
     {
       "id": 3,
-      "color": "purple",
+      "color": "Purple",
       "species": "Lilac"
     },
     {
       "id": 4,
-      "color": "white",
+      "color": "White",
       "species": "Daisy"
     },
     {
       "id": 5,
-      "color": "pink",
+      "color": "Pink",
       "species": "Peonies"
     },
     {
       "id": 6,
-      "color": "orange",
+      "color": "Orange",
       "species": "Marigold"
     },
     {
       "id": 7,
-      "color": "blue",
+      "color": "Blue",
       "species": "Hydrangea"
     },
     {
       "id": 8,
-      "color": "lavender",
+      "color": "Purple",
       "species": "Lavender"
     },
     {
       "id": 9,
-      "color": "yellow",
+      "color": "Yellow",
       "species": "Sunflower"
     },
     {
       "id": 10,
-      "color": "pink",
+      "color": "Pink",
       "species": "Carnation"
     }
   ],
@@ -81,22 +81,22 @@
     {
       "id": 1,
       "businessName": "Greene Botanical Shipping",
-      "priceMarkup": 30
+      "priceMarkup": 20
     },
     {
       "id": 2,
       "businessName": "Blooms Express Distributors",
-      "priceMarkup": 25
+      "priceMarkup": 15
     },
     {
       "id": 3,
       "businessName": "Floral World Distributors",
-      "priceMarkup": 28
+      "priceMarkup": 18
     },
     {
       "id": 4,
       "businessName": "Petals Plus Distributors",
-      "priceMarkup": 32
+      "priceMarkup": 22
     }
   ],
   "retailers": [
@@ -160,67 +160,67 @@
       "id": 1,
       "nurseryId": 1,
       "flowerId": 1,
-      "price": 11.11
+      "price": 2.11
     },
     {
       "id": 2,
       "nurseryId": 1,
       "flowerId": 2,
-      "price": 9.99
+      "price": 0.99
     },
     {
       "id": 3,
       "nurseryId": 2,
       "flowerId": 3,
-      "price": 8.88
+      "price": 1.30
     },
     {
       "id": 4,
       "nurseryId": 2,
       "flowerId": 4,
-      "price": 7.77
+      "price": 1.61
     },
     {
       "id": 5,
       "nurseryId": 3,
       "flowerId": 5,
-      "price": 12.34
+      "price": 1.98
     },
     {
       "id": 6,
       "nurseryId": 3,
       "flowerId": 6,
-      "price": 10.00
+      "price": 0.78
     },
     {
       "id": 7,
       "nurseryId": 4,
       "flowerId": 7,
-      "price": 11.50
+      "price": 1.06
     },
     {
       "id": 8,
       "nurseryId": 4,
       "flowerId": 8,
-      "price": 9.25
+      "price": 1.42
     },
     {
       "id": 9,
       "nurseryId": 5,
       "flowerId": 9,
-      "price": 14.50
+      "price": 0.75
     },
     {
       "id": 10,
       "nurseryId": 5,
       "flowerId": 10,
-      "price": 13.00
+      "price": 1.15
     },
     {
       "id": 11,
       "nurseryId": 6,
       "flowerId": 2,
-      "price": 10.99
+      "price": 1.55
     }
   ],
   "nurseryDistributors": [
@@ -325,6 +325,129 @@
       "id": 9,
       "retailerId": 9,
       "distributorId": 1
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Brenda Hart",
+      "business": "Hart to Heart Wedding Planner",
+      "email": "BHart@harttoheart.com",
+      "password": "bhart"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "business": "Smith's Catering Services",
+      "email": "JSmith@catering.com",
+      "password": "jsmith"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "business": "Johnson Floral Design",
+      "email": "AJohnson@floraldesign.com",
+      "password": "ajohnson"
+    },
+    {
+      "id": 4,
+      "name": "Michael Davis",
+      "business": "Davis Photography Studio",
+      "email": "MDavis@photostudio.com",
+      "password": "mdavis"
+    },
+    {
+      "id": 5,
+      "name": "Emily White",
+      "business": "White's Event Rentals",
+      "email": "EWhite@eventrentals.com",
+      "password": "ewhite"
+    },
+    {
+      "id": 6,
+      "name": "Robert Lee",
+      "business": "Lee Music Productions",
+      "email": "RLee@musicpro.com",
+      "password": "rlee"
+    },
+    {
+      "id": 7,
+      "name": "Sophia Kim",
+      "business": "Kim's Party Planning",
+      "email": "SKim@partyplan.com",
+      "password": "skim"
+    },
+    {
+      "email": "PTolk@wru.com",
+      "password": "ptolk",
+      "name": "Pat Tolk",
+      "business": "Weddings R Us",
+      "id": 8
+    }
+  ],
+  "shoppingCarts": [
+    {
+      "customerId": 8,
+      "retailerId": 1,
+      "flowerId": 8,
+      "price": "41.63",
+      "id": 1
+    },
+    {
+      "customerId": 8,
+      "retailerId": 2,
+      "flowerId": 2,
+      "price": "44.96",
+      "id": 2
+    },
+    {
+      "customerId": 8,
+      "retailerId": 2,
+      "flowerId": 2,
+      "price": "49.46",
+      "id": 3
+    },
+    {
+      "customerId": 8,
+      "retailerId": 3,
+      "flowerId": 9,
+      "price": "81.20",
+      "id": 4
+    },
+    {
+      "customerId": 8,
+      "retailerId": 4,
+      "flowerId": 5,
+      "price": "67.13",
+      "id": 5
+    },
+    {
+      "customerId": 8,
+      "retailerId": 5,
+      "flowerId": 8,
+      "price": "44.40",
+      "id": 6
+    },
+    {
+      "customerId": 8,
+      "retailerId": 6,
+      "flowerId": 2,
+      "price": "47.45",
+      "id": 7
+    },
+    {
+      "customerId": 8,
+      "retailerId": 7,
+      "flowerId": 9,
+      "price": "85.26",
+      "id": 8
+    },
+    {
+      "customerId": 8,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": "49.99",
+      "id": 9
     }
   ]
 }
