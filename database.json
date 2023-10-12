@@ -160,7 +160,7 @@
       "id": 1,
       "nurseryId": 1,
       "flowerId": 1,
-      "price": 2.11
+      "price": 0.51
     },
     {
       "id": 2,
@@ -172,19 +172,19 @@
       "id": 3,
       "nurseryId": 2,
       "flowerId": 3,
-      "price": 1.30
+      "price": 0.3
     },
     {
       "id": 4,
       "nurseryId": 2,
       "flowerId": 4,
-      "price": 1.61
+      "price": 0.61
     },
     {
       "id": 5,
       "nurseryId": 3,
       "flowerId": 5,
-      "price": 1.98
+      "price": 0.98
     },
     {
       "id": 6,
@@ -202,7 +202,7 @@
       "id": 8,
       "nurseryId": 4,
       "flowerId": 8,
-      "price": 1.42
+      "price": 0.42
     },
     {
       "id": 9,
@@ -220,7 +220,7 @@
       "id": 11,
       "nurseryId": 6,
       "flowerId": 2,
-      "price": 1.55
+      "price": 0.55
     }
   ],
   "nurseryDistributors": [
@@ -387,67 +387,480 @@
   ],
   "shoppingCarts": [
     {
-      "customerId": 8,
+      "customerId": 7,
       "retailerId": 1,
-      "flowerId": 8,
-      "price": "41.63",
+      "flowerId": 1,
+      "price": 1.53,
       "id": 1
     },
     {
-      "customerId": 8,
-      "retailerId": 2,
-      "flowerId": 2,
-      "price": "44.96",
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
       "id": 2
     },
     {
-      "customerId": 8,
-      "retailerId": 2,
-      "flowerId": 2,
-      "price": "49.46",
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
       "id": 3
     },
     {
-      "customerId": 8,
-      "retailerId": 3,
-      "flowerId": 9,
-      "price": "81.20",
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
       "id": 4
     },
     {
-      "customerId": 8,
-      "retailerId": 4,
-      "flowerId": 5,
-      "price": "67.13",
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
       "id": 5
     },
     {
-      "customerId": 8,
-      "retailerId": 5,
-      "flowerId": 8,
-      "price": "44.40",
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
       "id": 6
     },
     {
-      "customerId": 8,
-      "retailerId": 6,
+      "customerId": 7,
+      "retailerId": 1,
       "flowerId": 2,
-      "price": "47.45",
+      "price": 2.97,
       "id": 7
     },
     {
-      "customerId": 8,
-      "retailerId": 7,
-      "flowerId": 9,
-      "price": "85.26",
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
       "id": 8
     },
     {
-      "customerId": 8,
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 9
+    },
+    {
+      "customerId": 7,
       "retailerId": 1,
       "flowerId": 1,
-      "price": "49.99",
-      "id": 9
+      "price": 1.53,
+      "id": 10
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 11
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
+      "id": 12
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 13
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 14
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 15
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 7,
+      "price": 3.18,
+      "id": 16
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 17
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 7,
+      "price": 3.18,
+      "id": 18
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 19
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 8,
+      "price": 1.26,
+      "id": 20
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 8,
+      "price": 1.26,
+      "id": 21
+    },
+    {
+      "customerId": 7,
+      "retailerId": 2,
+      "flowerId": 10,
+      "price": 3.1,
+      "id": 22
+    },
+    {
+      "customerId": 7,
+      "retailerId": 2,
+      "flowerId": 9,
+      "price": 2.02,
+      "id": 23
+    },
+    {
+      "customerId": 7,
+      "retailerId": 2,
+      "flowerId": 8,
+      "price": 1.13,
+      "id": 24
+    },
+    {
+      "customerId": 7,
+      "retailerId": 2,
+      "flowerId": 7,
+      "price": 2.86,
+      "id": 25
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 3,
+      "price": 1.08,
+      "id": 26
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 4,
+      "price": 2.2,
+      "id": 27
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 5,
+      "price": 3.53,
+      "id": 28
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 5,
+      "price": 3.53,
+      "id": 29
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 5,
+      "price": 3.53,
+      "id": 30
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 10,
+      "price": 4.14,
+      "id": 31
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 10,
+      "price": 4.14,
+      "id": 32
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 10,
+      "price": 4.14,
+      "id": 33
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 10,
+      "price": 4.14,
+      "id": 34
+    },
+    {
+      "customerId": 7,
+      "retailerId": 3,
+      "flowerId": 10,
+      "price": 4.14,
+      "id": 35
+    },
+    {
+      "customerId": 7,
+      "retailerId": 5,
+      "flowerId": 2,
+      "price": 3.17,
+      "id": 36
+    },
+    {
+      "customerId": 7,
+      "retailerId": 5,
+      "flowerId": 2,
+      "price": 3.17,
+      "id": 37
+    },
+    {
+      "customerId": 7,
+      "retailerId": 5,
+      "flowerId": 7,
+      "price": 3.39,
+      "id": 38
+    },
+    {
+      "customerId": 7,
+      "retailerId": 5,
+      "flowerId": 8,
+      "price": 1.34,
+      "id": 39
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 40
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
+      "id": 41
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 7,
+      "price": 3.18,
+      "id": 42
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 8,
+      "price": 1.26,
+      "id": 43
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
+      "id": 44
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 45
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 7,
+      "price": 3.18,
+      "id": 46
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 8,
+      "price": 1.26,
+      "id": 47
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
+      "id": 48
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
+      "id": 49
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
+      "id": 50
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 51
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 7,
+      "price": 3.18,
+      "id": 52
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 8,
+      "price": 1.26,
+      "id": 53
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 54
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 7,
+      "price": 3.18,
+      "id": 55
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 8,
+      "price": 1.26,
+      "id": 56
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
+      "id": 57
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 58
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
+      "id": 59
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 60
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 7,
+      "price": 3.18,
+      "id": 61
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 8,
+      "price": 1.26,
+      "id": 62
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 8,
+      "price": 1.26,
+      "id": 63
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 7,
+      "price": 3.18,
+      "id": 64
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 2,
+      "price": 2.97,
+      "id": 65
+    },
+    {
+      "customerId": 7,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 1.53,
+      "id": 66
+    },
+    {
+      "customerId": 7,
+      "retailerId": 2,
+      "flowerId": 2,
+      "price": 2.67,
+      "id": 67
+    },
+    {
+      "customerId": 7,
+      "retailerId": 2,
+      "flowerId": 3,
+      "price": 0.81,
+      "id": 68
     }
   ]
 }
